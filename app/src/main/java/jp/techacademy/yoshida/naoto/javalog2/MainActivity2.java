@@ -16,7 +16,7 @@ public class MainActivity2 extends AppCompatActivity {  //アクセスコント�
         human.think();
 
         human.say();
-        Log.d("javatest" , "「私の名前は" + human.name + "です。年は"+ human.age + "歳です。」");
+
 
 
 

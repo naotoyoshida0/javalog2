@@ -14,8 +14,8 @@ class Human extends Animal implements thinkable {
         this.hobby = hobby;
     }
 
-    public void say()  {    //sayメソッドを実装しないようにしたい
-        Log.d("javatest" , "");
+    public void say() {
+        Log.d("javatest", "「私の名前は" + this.name + "です。年は" + this.age + "歳です。」");
     }
 
     @Override
